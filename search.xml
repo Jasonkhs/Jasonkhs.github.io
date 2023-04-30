@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>这是船新的开始</title>
+    <url>/2023/04/29/%E8%BF%99%E6%98%AF%E8%88%B9%E6%96%B0%E7%9A%84%E5%BC%80%E5%A7%8B/</url>
+    <content><![CDATA[<h1 id="hello呀">Hello呀！</h1>
+<p>这个Blog将会记录我的笔记、日常、情绪以及各种东西。尝试敲两个数学公式。首先是来个行内薛定谔方程：
+<span class="math inline">\(i\hbar \frac{\partial \psi}{\partial t}= H
+\psi\)</span> 。</p>
+<p>再来一个行间等式： <span class="math display">\[\begin{align*}
+    x &amp;= a +b+c+d\\
+    &amp;= e +f\\
+    &amp;= g
+\end{align*}\]</span> 看看能不能插入一个图片： <img src="/images/test.jpg" alt="放个老婆！"></p>
+]]></content>
+      <tags>
+        <tag>开场白</tag>
+      </tags>
+  </entry>
+</search>
