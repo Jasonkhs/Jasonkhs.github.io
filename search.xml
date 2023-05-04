@@ -1,9 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>终于搭建完毕了！</title>
+    <url>/2023/04/30/%E7%BB%88%E4%BA%8E%E6%90%AD%E5%BB%BA%E5%AE%8C%E6%AF%95%E4%BA%86%EF%BC%81/</url>
+    <content><![CDATA[<p>这个Blog的想法诞生很久了，大概是看到其他大佬有一个自己的网站分享自己的笔记与心得之后产生的想法。原本是打算在一些比较大的互联网平台做这种事情的，但是自己应该还是太菜了，写出来的东西会误导别人，也害怕真的牛人下场骂我狗屁不懂，这个想法也就因此而搁置了大概半年左右。</p>
+<p>这个想法的复燃是因为看到了一个写的很清晰的的笔记发布在大佬自己的Blog上，于是我想到我也可以自己尝试建立一个Blog。一来，这个个人Blog的流传范围很小，所以我可以肆无忌惮的吐槽、上传垃圾。二来，这个Blog的存在可以满足我的分享欲望，毕竟社交软件上可以排版数学公式的我知道的只有知乎。但是知乎上佬很多，实话说，我也很社恐。每每打下一段文字，我都要思考我说的对不对，但是自己的学识浅薄，最后都是不得已作罢。</p>
+<p>我的Blog都是在和我关系比较好的人之间流传的，因此不存在以上的所有顾虑。我可以大胆地误导你们，也可以像疯子一样发癫而不用担心各种问题！所以这一切都是罪恶的开始。而我将获得无比的快乐！</p>
+<p>这个Blog大概花了三天时间来搭建的，现在想来，这个东西的搭建挺简单的。但是因为我比较愚钝，因此花了很多时间查阅资料和debug。终于，黄天不负，像那么一回事情了。所有的Blog是用Hexo写的，模板主题是next。你可以在留言板里面留下你想的说的话，也可以在评论区内发表观点，这些所有的东西我在看到之后都会回应。当然，你大可以放心，留言板与评论区都是匿名的，我不会知道你是谁。当然，你也可以实名冲浪，一切随你意愿。</p>
+<p>最后的最后，这个Blog的存在更多是为了满足自己的中二。我觉得有这么一个站点记录这自己的发病日常还是很酷的！(尽管他很简陋)</p>
+]]></content>
+      <categories>
+        <category>日常</category>
+      </categories>
+      <tags>
+        <tag>中二病</tag>
+        <tag>吐槽</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Goldstone 等价规范</title>
     <url>/2023/05/01/Goldstone-%E7%AD%89%E4%BB%B7%E8%A7%84%E8%8C%83/</url>
-    <content><![CDATA[<p>当我们考虑的高能过程涉及到纵向规范玻色子的时候，会产生很多技术和概念上的麻烦。</p>
+    <content><![CDATA[<p>当我们考虑的高能过程涉及到纵向规范玻色子的时候，会产生很多技术和概念上的麻烦。因此，我们选择一个新的规范——Goldstone等价规范（GEG）。在这个规范中Goldstone等价定理和领头阶的破缺是十分明显的且可以直接通过树图直接计算得到。除此之外，还保留了剩余的洛伦兹对称性和避免了非物理的极点。</p>
+<p>GEG实际上是库伦规范和光锥规范的混合。它采用了一个随着动量旋转的类光规范矢量：
+<span class="math display">\[\begin{align*}
+        n^{\mu}(k) = (n^{0}{k,\vec{n} (k)}) \equiv (1,-\hat{k}
+\mathop{\mathrm{sign}}(k^0)),\qquad n^{\mu}n_{\mu} = 0
+\end{align*}\]</span></p>
+<p>用<span class="math inline">\(W^{\mu}\)</span>表示矢量场的规范伴随分量，将规范自由度分解为<span class="math inline">\(W_{n}(W_{\bar{n}})\)</span>两个横向分量和<span class="math inline">\(W_{T}\)</span>。于是： <span class="math display">\[\begin{align*}
+        W^{\mu}(k) = W_{T}(k) \epsilon ^{\mu}_{T} (T) + W_{n}(k)
+\epsilon ^{\mu}_{n}(k) + W_{\bar{n}}(k) \epsilon ^{\mu}_{\bar{n}}(k)
+\end{align*}\]</span> 其中<span class="math inline">\(\bar{n} \equiv
+(1,\hat{k} \mathop{\mathrm{sign}}{k^{0}})\)</span>。由于<span class="math inline">\(W^{\mu}\)</span>是一个实矢量场，因此有<span class="math inline">\(n^{\mu}(k)^{*} =
+n^{\mu}(-k)\)</span>。于是规范固定的拉氏量为： <span class="math display">\[\begin{align*}
+        \mathcal{L}_{fix} &amp;= -\frac{1}{2\xi}(n(k) \cdot
+W(k))(n(k)^{*} \cdot W(k))\\
+        &amp;=-\frac{1}{2\xi}(n(k) \cdot W(k))(n(-k) \cdot W(k))\\
+        &amp;=-\frac{1}{2\xi}(n(k) \cdot W(k))(n(k) \cdot W(-k)), \qquad
+(\xi \rightarrow 0)
+\end{align*}\]</span></p>
+<p>大的on-shell纵向极化的类光分量，<span class="math inline">\(W_{\bar{n}}\)</span>场，会因为质量无穷大无法传播。剩下的三个物理的自由度对应的场则可以传播。而且，GEG是遵循旋转对称性SO(3)。</p>
 ]]></content>
       <categories>
         <category>科研</category>
@@ -32,23 +67,6 @@
       <tags>
         <tag>中二病</tag>
         <tag>测试</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>终于搭建完毕了！</title>
-    <url>/2023/04/30/%E7%BB%88%E4%BA%8E%E6%90%AD%E5%BB%BA%E5%AE%8C%E6%AF%95%E4%BA%86%EF%BC%81/</url>
-    <content><![CDATA[<p>这个Blog的想法诞生很久了，大概是看到其他大佬有一个自己的网站分享自己的笔记与心得之后产生的想法。原本是打算在一些比较大的互联网平台做这种事情的，但是自己应该还是太菜了，写出来的东西会误导别人，也害怕真的牛人下场骂我狗屁不懂，这个想法也就因此而搁置了大概半年左右。</p>
-<p>这个想法的复燃是因为看到了一个写的很清晰的的笔记发布在大佬自己的Blog上，于是我想到我也可以自己尝试建立一个Blog。一来，这个个人Blog的流传范围很小，所以我可以肆无忌惮的吐槽、上传垃圾。二来，这个Blog的存在可以满足我的分享欲望，毕竟社交软件上可以排版数学公式的我知道的只有知乎。但是知乎上佬很多，实话说，我也很社恐。每每打下一段文字，我都要思考我说的对不对，但是自己的学识浅薄，最后都是不得已作罢。</p>
-<p>我的Blog都是在和我关系比较好的人之间流传的，因此不存在以上的所有顾虑。我可以大胆地误导你们，也可以像疯子一样发癫而不用担心各种问题！所以这一切都是罪恶的开始。而我将获得无比的快乐！</p>
-<p>这个Blog大概花了三天时间来搭建的，现在想来，这个东西的搭建挺简单的。但是因为我比较愚钝，因此花了很多时间查阅资料和debug。终于，黄天不负，像那么一回事情了。所有的Blog是用Hexo写的，模板主题是next。你可以在留言板里面留下你想的说的话，也可以在评论区内发表观点，这些所有的东西我在看到之后都会回应。当然，你大可以放心，留言板与评论区都是匿名的，我不会知道你是谁。当然，你也可以实名冲浪，一切随你意愿。</p>
-<p>最后的最后，这个Blog的存在更多是为了满足自己的中二。我觉得有这么一个站点记录这自己的发病日常还是很酷的！(尽管他很简陋)</p>
-]]></content>
-      <categories>
-        <category>日常</category>
-      </categories>
-      <tags>
-        <tag>中二病</tag>
-        <tag>吐槽</tag>
       </tags>
   </entry>
 </search>
